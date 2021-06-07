@@ -1,6 +1,6 @@
 ---
-layout: default,
-title = "My Blog"
+layout: default
+title = My Blog
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
