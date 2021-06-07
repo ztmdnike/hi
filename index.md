@@ -1,6 +1,7 @@
 ---
 layout: default
-title: My Blog
+title: HODOR Blog
+description: MD文件测试
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
