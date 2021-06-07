@@ -1,8 +1,4 @@
 ---
-title: Time Machine theme
-description: Time Machine is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
 layout: default
 ---
 
