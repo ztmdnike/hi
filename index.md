@@ -1,5 +1,4 @@
 ---
-theme: jekyll-theme-time-machine
 title: Time Machine theme
 description: Time Machine is a theme for GitHub Pages.
 show_downloads: true
