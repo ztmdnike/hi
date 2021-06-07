@@ -1,6 +1,7 @@
 ---
 layout: default
 title: MD文件测
+name: test
 description: MD文件测试
 ---
 
