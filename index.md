@@ -1,6 +1,3 @@
-HODOR Blog
-===
-MD的测试文档！
 ---
 layout: default
 ---
