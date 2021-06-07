@@ -1,7 +1,10 @@
 ---
 layout: default
-title: HODOR-Blog
-description: MD语法测试
+title: Time Machine theme
+description: Time Machine is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-time-machine
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
