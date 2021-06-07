@@ -11,7 +11,7 @@
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
   <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
 
-{% seo %}
+
 
 </head>
 
@@ -22,7 +22,7 @@
       <h1 class="title">{{ page.title | default: site.github.repository_name }}</h1>
     </header>
     <div id="container">
-      <p class="tagline">{{ page.description | default: site.github.project_tagline }}</p>
+      <p class="tagline">{{ page.description }}</p>
       <div id="main" role="main">
         <div class="download-bar">
         <div class="inner">
