@@ -1,8 +1,7 @@
 ---
 layout: default
-title: HODOR Blog
+title: MD文件测
 description: MD文件测试
-tagline: MD文件测
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
