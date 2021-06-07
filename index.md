@@ -1,8 +1,7 @@
 ---
 layout: default
-title: MD文件测
-name: test
-description: MD文件测试
+title: HODOR-Blog
+description: MD语法测试
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
