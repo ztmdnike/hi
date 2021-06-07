@@ -1,7 +1,7 @@
 ---
 layout: default
-title:主标题
-tagline:副标题
+site.title:主标题
+site.tagline:副标题
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
