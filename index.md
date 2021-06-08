@@ -1,5 +1,7 @@
 ---
 layout: default
+title: HODOR-BLOG
+description: TEST-2021-6-8
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
