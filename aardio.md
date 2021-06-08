@@ -1,7 +1,7 @@
 ---
 layout: default
 title: HODOR-BLOG
-description: aardio-博客列表
+description: aardio-文章列表
 ---
 
 <ul>
