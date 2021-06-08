@@ -18,9 +18,9 @@ description: 记录一下
 
 ## 标题 2
 
-> This is a blockquote following a header.
+> 这是标题后面的块引用。
 >
-> When something is important enough, you do it even if the odds are not in your favor.
+> 当某件事足够重要时，即使情况对你不利，你也会去做。
 
 ### 标题 3
 
