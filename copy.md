@@ -14,10 +14,6 @@ const password = <PASSWORD>;
 </div>
 {% if page.content contains "code" %}
 <script>
-<!-- clipboard.js code -->
-</script>
-{% endif %}
-<script>
 // get all <code> elements
 var allCodeBlocksElements = $( "code" );
 
@@ -34,7 +30,8 @@ allCodeBlocksElements.each(function(i) {
   });
  
   new Clipboard('.btn');
-	</script>
+</script>
+{% endif %}
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
 
