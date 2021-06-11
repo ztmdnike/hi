@@ -38,7 +38,6 @@ allCodeBlocksElements.each(function(i) {
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
 
-
 <code>print("Club Nacional de Football")</code>
 <br>
 <code>print("is a sports institution")</code>
