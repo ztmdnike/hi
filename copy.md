@@ -9,7 +9,7 @@ const password = <PASSWORD>;
 ...
 ```
 {: #code-example-1}
-<script src="dist/clipboard.min.js"></script>
+<script src="/dist/clipboard.min.js"></script>
 {% if page.content contains "code" %}
 <script>
 // get all <code> elements
