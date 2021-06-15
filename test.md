@@ -1,3 +1,12 @@
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
 ---
 layout: default
 title: HODOR-BLOG
@@ -28,16 +37,14 @@ end
 <script>
     var btn = document.getElementById('btn');
     var clipboard = new Clipboard(btn);//实例化
-
     //复制成功执行的回调，可选
-    clipboard.on('success', function(e) {
-        alert('复制成功')
-    });
-
+   // clipboard.on('success', function(e) {
+      //  alert('复制成功')
+    //});
     //复制失败执行的回调，可选
-    clipboard.on('error', function(e) {
-        console.log(e);
-    });
+    //clipboard.on('error', function(e) {
+     //   console.log(e);
+    //});
 </script>
 {% if page.content contains "code" %}
 <script>
@@ -57,12 +64,12 @@ allCodeBlocksElements.each(function(i) {
   });
  
   new Clipboard('.btn');
-   clipboard.on('success', function(e) {
+   clipButton.on('success', function(e) {
         alert('复制成功')
     });
 
     //复制失败执行的回调，可选
-    clipboard.on('error', function(e) {
+    clipButton.on('error', function(e) {
         console.log(e);
     });
 </script>
