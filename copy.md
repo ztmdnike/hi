@@ -13,7 +13,7 @@ const password = <PASSWORD>;
 <button class="btn" data-clipboard-action="copy" data-clipboard-target="#cod">
     copy to clipboard
 </button>	
-<script src="dist/clipboard.min.js"></script>
+<script src="clipboard.min.js"></script>
 <script>	
 // get all <code> elements
 var allCodeBlocksElements = $( "code" );
