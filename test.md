@@ -13,6 +13,7 @@ var fun = function lang(l) {
   return true;
 }
 ```
+{:#aa}
 
 ```ruby
 # Ruby code with syntax highlighting
@@ -22,16 +23,9 @@ end
 ```
 
 
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <title>clipboard示例</title>
-    <script src="./clipboard.min.js"></script>
-</head>
-<body>
     <textarea id="bar">Mussum ipsum cacilds...</textarea>
 <!--data-clipboard-text属性的值将会被复制-->
-<div id="btn" class="js-copy" data-clipboard-target="#bar">
+<div id="btn" class="js-copy" data-clipboard-target="#aa">
     <span>点击复制</span>
 </div>
 
@@ -49,5 +43,3 @@ end
     //    console.log(e);
     //});
 </script>
-</body>
-</html>
