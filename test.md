@@ -52,16 +52,13 @@ allCodeBlocksElements.each(function(i) {
   //trigger
   var clipButton = '<button class="btn" data-clipboard-target="#' + currentId + '"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard"></button>';
      $(this).after(clipButton);
-  });
- 
-  new Clipboard('.btn');
-   clipButton.on('success', function(e) {
+     $(this).on('success', function(e) {
         alert('复制成功')
     });
-
-    //复制失败执行的回调，可选
-    clipButton.on('error', function(e) {
+    $(this).on('error', function(e) {
         console.log(e);
     });
+  });
+  new Clipboard('.btn');
 </script>
 {% endif %}
