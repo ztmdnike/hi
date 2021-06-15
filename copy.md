@@ -1,4 +1,3 @@
-<div id="cod">
 ```javascript
 /* Global scope: this code is executed once */
 const redis = require('redis');
@@ -8,8 +7,8 @@ const port = <PORT>;
 const password = <PASSWORD>;
 
 ```
-</div>
-<button class="btn" data-clipboard-action="copy" data-clipboard-target="#cod">
+{: #code-example-1}
+<button class="btn" data-clipboard-action="copy" data-clipboard-target="#code-example-1">
     copy to clipboard
 </button>	
 <script src="clipboard.min.js"></script>
