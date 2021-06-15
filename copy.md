@@ -7,29 +7,21 @@ const host = <HOSTNAME>;
 const port = <PORT>;
 const password = <PASSWORD>;
 
-...
 ```
 </div>
 <button class="btn" data-clipboard-action="copy" data-clipboard-target="#cod">
     copy to clipboard
 </button>	
 <script src="clipboard.min.js"></script>
-<script>	
-// get all <code> elements
-var allCodeBlocksElements = $( "code" );
+ <script>
+      var clipboard = new ClipboardJS('.btn');
 
-allCodeBlocksElements.each(function(i) {
- 	// add different id for each code block
+      clipboard.on('success', function (e) {
+        console.log(e);
+      });
 
-	// target	
-  var currentId = "codeblock" + (i + 1);
-  $(this).attr('id', currentId);
-     
-  //trigger
-  var clipButton = '<button class="btn" data-clipboard-target="#' + currentId + '"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard"></button>';
-     $(this).after(clipButton);
-  });
- 
-  new Clipboard('.btn');
-</script>
+      clipboard.on('error', function (e) {
+        console.log(e);
+      });
+    </script>
 
