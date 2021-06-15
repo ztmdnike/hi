@@ -9,6 +9,7 @@ const password = <PASSWORD>;
 ...
 ```
 {: #code-example-1}
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="/dist/clipboard.min.js"></script>
 {% if page.content contains "code" %}
 <script>
