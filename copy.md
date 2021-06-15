@@ -32,9 +32,3 @@ allCodeBlocksElements.each(function(i) {
   new Clipboard('.btn');
 </script>
 {% endif %}
-
-<code>print("Club Nacional de Football")</code>
-<br>
-<code>print("is a sports institution")</code>
-<br>
-<code>print("from Uruguay")</code>
