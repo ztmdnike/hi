@@ -58,5 +58,13 @@ allCodeBlocksElements.each(function(i) {
   });
  
   new Clipboard('.btn');
+   clipboard.on('success', function(e) {
+        alert('复制成功')
+    });
+
+    //复制失败执行的回调，可选
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
 </script>
 {% endif %}
