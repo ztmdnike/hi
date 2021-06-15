@@ -21,9 +21,7 @@ GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
 ```
-
-
-    <textarea id="bar">Mussum ipsum cacilds...</textarea>
+<textarea id="bar">Mussum ipsum cacilds...</textarea>
 <!--data-clipboard-text属性的值将会被复制-->
 <div id="btn" class="js-copy" data-clipboard-target="#aa">
     <span>点击复制</span>
