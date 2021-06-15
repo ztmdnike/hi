@@ -34,12 +34,12 @@ end
     var clipboard = new Clipboard(btn);//实例化
 
     //复制成功执行的回调，可选
-    //clipboard.on('success', function(e) {
-       // alert('复制成功')
-    //});
+    clipboard.on('success', function(e) {
+        alert('复制成功')
+    });
 
     //复制失败执行的回调，可选
-   // clipboard.on('error', function(e) {
-    //    console.log(e);
-    //});
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
 </script>
