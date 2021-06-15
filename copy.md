@@ -6,21 +6,35 @@ const host = <HOSTNAME>;
 const port = <PORT>;
 const password = <PASSWORD>;
 
+...
 ```
 {: #code-example-1}
-<button class="btn" data-clipboard-action="copy" data-clipboard-target="#code-example-1">
-    copy to clipboard
-</button>	
-<script src="clipboard.min.js"></script>
- <script>
-      var clipboard = new ClipboardJS('.btn');
+{% if page.content contains "code" %}
+<script>
+// get all <code> elements
+var allCodeBlocksElements = $( "code" );
 
-      clipboard.on('success', function (e) {
-        console.log(e);
-      });
+allCodeBlocksElements.each(function(i) {
+ 	// add different id for each code block
 
-      clipboard.on('error', function (e) {
-        console.log(e);
-      });
-    </script>
+	// target	
+  var currentId = "codeblock" + (i + 1);
+  $(this).attr('id', currentId);
+     
+  //trigger
+  var clipButton = '<button class="btn" data-clipboard-target="#' + currentId + '"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard"></button>';
+     $(this).after(clipButton);
+  });
+ 
+  new Clipboard('.btn');
+</script>
+{% endif %}
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
 
+
+<code>print("Club Nacional de Football")</code>
+<br>
+<code>print("is a sports institution")</code>
+<br>
+<code>print("from Uruguay")</code>
