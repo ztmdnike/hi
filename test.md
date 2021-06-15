@@ -26,7 +26,7 @@ end
 <div id="btn" class="js-copy" data-clipboard-target="#aa">
     <span>点击复制</span>
 </div>
-
+ <script src="./clipboard.min.js"></script>
 <script>
     var btn = document.getElementById('btn');
     var clipboard = new Clipboard(btn);//实例化
