@@ -1,3 +1,4 @@
+<div id="cod">
 ```javascript
 /* Global scope: this code is executed once */
 const redis = require('redis');
@@ -8,12 +9,12 @@ const password = <PASSWORD>;
 
 ...
 ```
-{: #code-example-1}
-<div id="code-example-1" class="language-javascript highlighter-rouge">
-....
 </div>
-{% if page.content contains "code" %}
-<script>
+<button class="btn" data-clipboard-action="copy" data-clipboard-target="#cod">
+    copy to clipboard
+</button>	
+<script src="dist/clipboard.min.js"></script>
+<script>	
 // get all <code> elements
 var allCodeBlocksElements = $( "code" );
 
@@ -31,12 +32,4 @@ allCodeBlocksElements.each(function(i) {
  
   new Clipboard('.btn');
 </script>
-{% endif %}
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
 
-<code>print("Club Nacional de Football")</code>
-<br>
-<code>print("is a sports institution")</code>
-<br>
-<code>print("from Uruguay")</code>
